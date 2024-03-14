@@ -1,0 +1,18 @@
+<!-- /views/calc_random.erb -->
+<h1>Pick a random number between min and max</h1>
+
+<form action="/random/results" method="get">
+  <div>
+    <label for="min_input">Minimum</label>
+
+    <input id="min_input" type="text" name="user_min" placeholder="E.g. 1.5">
+  </div>
+
+  <div>
+    <label for="max_input">Maximum</label>
+
+    <input id="max_input" type="text" name="user_max" placeholder="E.g. 4.5">
+  </div>
+
+  <button type = "submit">Pick random number</button>
+</form>
